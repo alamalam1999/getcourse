@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #343a40;
+    height: 100vh;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+/* Add this to your CSS file */
+.custom-sidebar {
+    background-color: #dcf2f0;
+    /* Custom green background */
+    height: 100vh;
+    width: 250px;
+}
+
+.label-sidebar {
+    font-weight: bold;
+}
+
+.nav-sidebar {
+    background-color: #d0d9e1;
+
+    margin-bottom: 18px;
+}

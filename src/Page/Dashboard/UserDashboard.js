@@ -19,13 +19,15 @@ function UserDashboard() {
 
   return (
     <div className="d-flex">
-      <Sidebar />
+      <div className="custom-sidebar " style={{ width: '250px', minWidth: '250px' }}>
+        <Sidebar />
+      </div>
       <div className="flex-grow-1">
         <Navbar />
         <Header />
         <DashboardBody />
       </div>
-    </div>
+  </div>
   );
 }
 

@@ -8,6 +8,8 @@ import ProtectedRoute from './ProtectedRoute'
 import LoginUser from './Page/LoginUser/LoginUser'
 import RegisterUser from './Page/LoginUser/RegisterUser'
 import UserDashboard from './Page/Dashboard/UserDashboard'
+import Lesson from './Page/Dashboard/Lesson'
+import Course from './Page/Dashboard/Course'
 
 export default class App extends Component {
   render() {
@@ -33,6 +35,8 @@ export default class App extends Component {
           <Route path="/" element={<Dashboard/>} />
           <Route path="/login-user" element={<LoginUser/>} />
           <Route path="/register-user" element={<RegisterUser/>} />
+          <Route path="/lesson" element={<Lesson/>} />
+          <Route path="/course" element={<Course/>} />
         </Routes>
       </Router>
     )

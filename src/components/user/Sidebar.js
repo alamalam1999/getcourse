@@ -2,7 +2,7 @@ import React from 'react';
 
 function Sidebar() {
   return (
-    <div className="d-flex flex-column custom-sidebar text-black" style={{ height: '100vh', width: '250px' }}>
+    <div className="d-flex flex-column text-black">
       <a className="text-black text-center py-3 label-sidebar mb-3" href="/">DASHBOARD</a>
       <ul className="nav flex-column">
         <li className="nav-item nav-sidebar">
